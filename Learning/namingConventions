@@ -1,0 +1,28 @@
+# Naming Conventions in JavaScript
+
+Always use the same naming convention for all your code. For example:
+
+Variable and function names written as camelCase
+Global variables written in UPPERCASE (We don't, but it's quite common)
+Constants (like PI) written in UPPERCASE
+Should you use hyp-hens, camelCase, or under_scores in variable names?
+
+This is a question programmers often discuss. The answer depends on who you ask:
+
+Hyphens in HTML and CSS:
+HTML5 attributes can start with data- (data-quantity, data-price).
+CSS uses hyphens in property-names (font-size).
+
+# Hyphens can be mistaken as subtraction attempts. Hyphens are not allowed in JavaScript names.
+
+Underscores:
+Many programmers prefer to use underscores (date_of_birth), especially in SQL databases.
+Underscores are often used in PHP documentation.
+
+PascalCase:
+PascalCase is often preferred by C programmers.
+
+camelCase:
+camelCase is used by JavaScript itself, by jQuery, and other JavaScript libraries.
+
+# Do not start names with a $ sign. It will put you in conflict with many JavaScript library names.
