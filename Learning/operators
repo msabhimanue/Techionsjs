@@ -1,0 +1,106 @@
+# Operators in JavaScript
+1. Assignment Operator (=)
+Used to assign a value to a variable.
+let x = 10; // x gets the value 10
+
+2. Arithmetic Operators
+Used to perform arithmetic operations.
+
++: Addition
+let x = 5 + 3; // 
+
+-: Subtraction
+let x = 5 - 3; // 2
+
+*: Multiplication
+let x = 5 * 3; // 15
+
+/: Division
+let x = 5 / 3; // 1.6667
+
+%: Modulus (Remainder)
+let x = 5 % 3; // 2
+
+++: Increment
+let x = 5;
+x++; // x becomes 6
+
+--: Decrement
+let x = 5;
+x--; // x becomes 4
+
+3. Comparison Operators
+
+Used to compare values.
+==: Equal to
+5 == 5; // true
+
+===: Equal value and type
+5 === '5'; // false (different types)
+
+!=: Not equal
+5 != 3; // true
+
+!==: Not equal value or not equal type
+5 !== '5'; // true
+
+>: Greater than
+5 > 3; // true
+
+<: Less than 
+5 < 3; // false
+
+>=: Greater than or equal to
+5 >= 5; // true
+
+<=: Less than or equal to
+5 <= 3; // false
+
+4. String Operators
+
+Used for string concatenation.
++: Concatenation
+let text = "Hello" + " " + "World"; // "Hello World"
+
++=: Concatenate and assign
+let text = "Hello";
+text += " World"; // "Hello World"
+
+5. Logical Operators
+
+Used for logical operations.
+&&: AND
+true && false; // false
+
+||: OR 
+true || false; // true
+
+!: NOT
+!true; // false
+
+6. Type Operators
+
+Used to check variable types.
+typeof: Returns the type of a variable
+typeof 5; // "number"
+
+instanceof: Checks if an object is an instance of a specific type
+let date = new Date();
+date instanceof Date; // true
+
+7. Bitwise Operators
+
+Work on 32-bit numbers.
+&: AND 
+5 & 1; // 1 (0101 & 0001)
+
+|: OR
+5 | 1; // 5 (0101 | 0001)
+
+^: XOR 
+5 ^ 1; // 4 (0101 ^ 0001)
+
+<<: Left Shift
+5 << 1; // 10 (0101 << 1)
+>>: Right Shift 
+5 >> 1; // 2 (0101 >> 1)

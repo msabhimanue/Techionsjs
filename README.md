@@ -9,3 +9,5 @@ JavaScript comments can also be used to prevent execution, when testing alternat
 Data types in JavaScript specify the type of data, such as numbers, strings, or objects, that can be stored in a variable.
 Type conversion in JavaScript changes one data type to another, like turning a string into a number. This can be done manually or automatically by JavaScript.
 Variables are Containers for Storing Data
+# Operators in JavaScript
+Javascript operators are used to perform different types of mathematical and logical computations.
