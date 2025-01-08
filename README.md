@@ -11,3 +11,5 @@ Type conversion in JavaScript changes one data type to another, like turning a s
 Variables are Containers for Storing Data , as explained in the dt,tp&variables file.
 # Operators in JavaScript
 Javascript operators are used to perform different types of mathematical and logical computations, as explained in the operators file.
+# Conditional Statements
+Conditional statements allow you to execute specific blocks of code based on whether a condition is true or false.

@@ -1,0 +1,97 @@
+# JavaScript Conditional Statements
+JavaScript conditional statements allow you to perform different actions based on different conditions.
+
+Conditional statements are used to execute a block of code if a specified condition evaluates to true.
+
+if Statement
+The if statement is used to specify a block of code that will execute only if a condition is true.
+
+Example:
+// Check if the number is positive
+let number = 5;
+if (number > 0) {
+    console.log("The number is positive");
+}
+Single-Line Comments Example:
+
+// Declare a variable and assign a value
+let number = 10;
+
+// Check if the number is even
+if (number % 2 === 0) {
+    console.log("The number is even"); // Logs if the number is even
+}
+if...else Statement
+The if...else statement specifies a block of code to execute if the condition is true and another block if it is false.
+
+Example:
+
+// Check if the number is positive or negative
+let number = -3;
+
+if (number > 0) {
+    console.log("The number is positive");
+} else {
+    console.log("The number is negative");
+}
+Multi-Line Comments Example:
+
+/*
+This block of code checks if a number is positive or negative
+and logs the result to the console.
+*/
+let number = 0;
+if (number > 0) {
+    console.log("The number is positive");
+} else {
+    console.log("The number is zero or negative");
+}
+if...else if...else Statement
+This allows you to test multiple conditions.
+
+Example:
+
+// Check the grade of a student
+let marks = 85;
+
+if (marks >= 90) {
+    console.log("Grade: A");
+} else if (marks >= 75) {
+    console.log("Grade: B");
+} else if (marks >= 50) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: F");
+}
+Preventing Execution with Comments Example:
+
+let age = 18;
+
+/*
+if (age >= 18) {
+    console.log("You are eligible to vote");
+} else {
+    console.log("You are not eligible to vote");
+}
+*/
+
+// The above block is commented out for testing purposes
+console.log("Testing alternative conditions...");
+Ternary Operator (Short Conditional Syntax)
+The ternary operator is a shorthand for if...else.
+
+Example:
+
+// Check if a number is even or odd
+let number = 7;
+let result = (number % 2 === 0) ? "Even" : "Odd";
+console.log(result);
+Commenting in Ternary Example:
+
+// Using the ternary operator to check the condition
+let age = 20;
+
+// Determine eligibility for voting
+let eligibility = (age >= 18) ? "Eligible to vote" : "Not eligible to vote";
+
+console.log(eligibility); // Logs the eligibility status
