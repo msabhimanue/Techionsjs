@@ -13,3 +13,19 @@ Variables are Containers for Storing Data , as explained in the dt,tp&variables 
 Javascript operators are used to perform different types of mathematical and logical computations, as explained in the operators file.
 # Conditional Statements
 Conditional statements allow you to execute specific blocks of code based on whether a condition is true or false.
+# Looping
+Looping enables repetitive execution of code until a specified condition is met.
+# Functions
+Functions are reusable blocks of code that perform specific tasks and can be invoked with or without arguments.
+# String Methods
+String methods are built-in functions that allow you to manipulate and analyze string data in various ways.
+# Array Methods
+Array methods provide tools for performing operations like adding, removing, or iterating over array elements.
+# Looping - Simple Looping - Iteration
+Iteration refers to the process of repeatedly executing a set of instructions, typically achieved using loops like for, while, or forEach.
+# Maps
+Maps are collections of key-value pairs where keys can be of any data type and maintain their insertion order.
+# Sets
+Sets are collections of unique values that automatically discard duplicates and allow efficient value checks.
+# Objects - Properties, Methods, Constructors
+Objects are collections of key-value pairs (properties) that can include methods (functions) and constructors for creating object instances.

@@ -1,0 +1,25 @@
+# Objects
+Properties and Methods
+
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    start: function () {
+        console.log("Car started");
+    },
+};
+
+console.log(car.brand); // Output: Toyota
+car.start(); // Output: Car started
+Constructor Function
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.greet = function () {
+        console.log("Hi, I'm " + this.name);
+    };
+}
+
+let person1 = new Person("John", 25);
+person1.greet(); // Output: Hi, I'm John

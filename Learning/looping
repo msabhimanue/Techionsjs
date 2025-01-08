@@ -1,0 +1,25 @@
+# Looping in JavaScript
+Looping is used to repeatedly execute a block of code as long as a specified condition is true.
+
+Simple Loops: for Loop
+The for loop is the most commonly used loop.
+
+Example:
+// Print numbers from 1 to 5
+for (let i = 1; i <= 5; i++) {
+    console.log(i); // Logs each number
+}
+
+Iteration: for...of and for...in
+for...of (Used for iterable objects like arrays):
+// Iterate over an array
+let fruits = ["Apple", "Banana", "Cherry"];
+for (let fruit of fruits) {
+    console.log(fruit); // Logs each fruit
+}
+for...in (Used for object properties):
+// Iterate over object properties
+let person = { name: "John", age: 30 };
+for (let key in person) {
+    console.log(key + ": " + person[key]); // Logs each key-value pair
+}
